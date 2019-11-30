@@ -14,11 +14,17 @@ auto-pop-miner
 FOR EXAMPLE:
 
 auto.mine.round1=false
+
 auto.mine.round2=false
+
 auto.mine.round3=false
+
 auto.mine.round4=true
+
 http.api.port=8044
+
 bitcoin.minrelayfee.enabled=false
+
 
 4 set the slowfee in pop.py, now is 10
 
