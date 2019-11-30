@@ -10,7 +10,7 @@ auto-pop-miner
   pip install requests
 	
  
-3 CHANGE THE POP MINER PORT IN POPMINER AND WRITE DOWN IT IN IPLIST
+3 CHANGE THE POP MINER PORT IN POPMINER AND WRITE DOWN IT IN IPLIST.TXT
 FOR EXAMPLE:
 
 auto.mine.round1=false
@@ -30,3 +30,5 @@ bitcoin.minrelayfee.enabled=false
 
 if the fee is more than 10 ,pop miner will set auto.mine.round4 to false ,or ,it will be true and fit the net
  
+ 
+ 5 python pop.py
